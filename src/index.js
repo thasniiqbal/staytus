@@ -14,8 +14,8 @@ fetch('https://randomuser.me/api')
 return response.json()
 }).then(function(data) {
    console.log(JSON.stringify(data))
-  //  const user = data.results[0]
-  var myJSON = JSON.stringify(data);
+   const user = data.results[0]
+  var myJSON = JSON.stringify(user);
   document.getElementById("apiresult").innerHTML = myJSON
   
 }).catch(function(err){
