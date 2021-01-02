@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+  color: blue;
+}
+.text {
+    max-width: 900px;
+    height: 100px;
+    margin: 0 auto;
+   display: inline;
+   justify-content: center;
+   word-wrap: break-word;
+}
