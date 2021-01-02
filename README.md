@@ -1,4 +1,4 @@
-This is a project which is implemented with the below points :
+This project is implemented in the f ollowing way
 
 1.Create a textbox with a Send button in a nested component, when populate the textbox and click the Send button, this should pop up an alert with the message in the parent container.
 
